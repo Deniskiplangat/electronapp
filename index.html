@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <meta
+      http-equiv="X-Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <link rel="stylesheet" type="text/css" href="./style.css">
+
+    <title>DREAM</title>
+
+   
+
+    
+  </head>
+  <body>
+   
+    <div class="container">
+        <div class="login-container">
+            <div class="watchcontainer">
+                <img src="./watch.png" alt="" srcset="">
+            </div>
+            <div class="mainlogin">
+                <form id="formId" action="">
+                    <h1>Welcome back...</h1>
+                    <section>
+                        <div class="space">
+                            <input id="username" placeholder="Enter your username" id="username" type="text" name="username" required />
+                        </div>
+                        <div class="space">
+                            <input id="password" placeholder="Enter your password" type="password" name="password" required />
+                        </div>
+                        <a href="">Forgot password?</a>
+                        <div class="space">
+                            <button class="loginbutton" id="loginbutton" type="submit">Login</button>
+                        </div>
+                        <hr class="hr-text gradient" data-content="OR">
+                        <div class="space">
+                            <a href="./home.html"><button class="switch" type="button">Sign up for an account</button></a>
+                        </div>
+                    </section>
+                  
+                </form>
+            </div>
+        </div>
+        <!-- <img src="./watch.png" alt="working" srcset=""> -->
+    </div>
+    
+  </body>
+
+  <script src="./renderer.js"></script>
+  <script src="./script.js"></script>
+</html>
